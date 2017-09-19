@@ -16,6 +16,7 @@ Number of fake 911 calls made and the respective cost occured to the police dept
 ![fake](https://user-images.githubusercontent.com/20146538/30572087-919646d4-9ca0-11e7-8f6f-e24cf5ab73a9.png)
 
 Correlation between small business/Home values and Emergency calls is studied and the impact of emergencies is seen data 
+
 ![small](https://user-images.githubusercontent.com/20146538/30572085-908cdc62-9ca0-11e7-9f9a-fa7d3ba4687d.png)
 
 ![home](https://user-images.githubusercontent.com/20146538/30572089-9295198e-9ca0-11e7-9946-5b1afd7afc6a.png)
