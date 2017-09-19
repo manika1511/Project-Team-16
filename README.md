@@ -2,16 +2,32 @@
 
 ![Alt text](download.jpg?raw=true)
  
-This project aims at giving a snapshot of the emergencies occurring in an area over the period which can help the Emergency Services to make available more resources in the emergency prone area. We will plot the emergency occurrences for the location using Google Maps API. Additionally, the location can be zoomed to provide the weekly statistics in a graphical form for data visualization.
+This project aims at giving a snapshot of the emergencies occurring in an area over the period which can help the Emergency Services to make available more resources in the emergency prone area. The distribution of emergencies is shown on the map using Google Maps API. Additionally, the location can be zoomed to provide the emergency category.
 
-![Alt text](Map-multiple-locations.jpg?raw=true)
+![download](https://user-images.githubusercontent.com/20146538/30571719-71db60ce-9c9e-11e7-918b-5d1be0696026.png)
  
-Also, we will analyze the data of a week on an hourly basis to predict the timespan at which there is a high probability of an emergency occurrence and then present the data graphically. By looking at the graph, we will predict the trend of emergencies. For instance, in case of vehicle accidents, analyzing the data to find the hour of the day when the number of vehicle accidents were maximum. This would help the emergency services to make sure that they can deploy more resources at that time of the day.
+The data per week is analysed on an hourly basis to predict the timespan in which the vehicle accidents occurrence is high. This would help the emergency services to make sure that they can deploy more resources at that time of the day.
+![download_traffic](https://user-images.githubusercontent.com/20146538/30571819-0264ada8-9c9f-11e7-8476-164d92dfd167.png)
 
-We will also compare the occurrences of different emergency types like Assault, Accidents, Fire, Medical Emergencies etc. For instance, when there are emergencies of one type occurring more frequently than others, the graph can help the emergency services to allocate the resources accordingly.
+Any emergency type can be compared against another to find the frequency of occurrence. For instance, when there are emergencies of one type occurring more frequently than others, the graph can help the emergency services to allocate the resources accordingly.
 
-## ok.. I like it. However 911 analysis itself does not provide enough value. Add the following:
-<li> how many are fake 911 calls made? and how much they cost to the police dept?
-<li> bring the small business data and find correlation between number of small business in the area and number of 911 calls made in that cluster
-<li> bring the home value data into picture and find correlation
-If all 3 implemented , APPROVED
+Number of fake 911 calls made and the respective cost occured to the police dept is found and the trend is analysed.
+Correlation between small business/Home values and Emergency calls is studied and the impact of emergencies is seen data 
+
+##Environment
+ - For Windows refer
+   - ```http://python.org```
+ - For Mac
+   - ```pip install virtualenv```
+   - To Activate the env
+     - ```virtualenv -p /usr/local/bin/python3.6 <project-name>```
+     - ### Note ***```if the above step fails make sure python3.6 is installed or check python path using below command```***
+     - Run command ```which python```
+     - Run command ```source ./<project-name>/bin/activate```
+- Now Clone the repo in current directory
+  - ```git clone https://github.com/SJSU272LabS17/Project-Team-16.git```
+  - ```cd ./Project-Team-16/911emergency/```
+- Install the libaries using Pip
+  -  ```pip install -r requirements.txt```
+- Run the app
+  - ```python3.6 app.py```
