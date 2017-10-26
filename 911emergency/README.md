@@ -21,6 +21,9 @@ Correlation between small business/Home values and Emergency calls is studied an
 
 ![home](https://user-images.githubusercontent.com/20146538/30572089-9295198e-9ca0-11e7-9946-5b1afd7afc6a.png)
 
+## Data Analysis
+Data analysis is done using Python Pandas. The dataset .csv file is read as Pandas dataframe and then the various data analysis (mentioned above) are done. 
+
 ## Environment
  - For Windows refer
    - http://python.org
