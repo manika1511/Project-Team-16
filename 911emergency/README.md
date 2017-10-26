@@ -1,6 +1,6 @@
 # EMERGENCY 911 ANALYSIS AND PREDICTION
 
-![Alt text](download.jpg?raw=true)
+![download](https://user-images.githubusercontent.com/20146538/32038644-b8a0c978-b9df-11e7-9083-3c7453a1f9af.jpg)
  
 This project aims at giving a snapshot of the emergencies occurring in an area over the period which can help the Emergency Services to make available more resources in the emergency prone area. The distribution of emergencies is shown on the map using Google Maps API. Additionally, the location can be zoomed to provide the emergency category.
 
